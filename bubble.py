@@ -1,4 +1,5 @@
 def bubbleSort(myList):
+	
 	for i in range (0, len(myList) - 1):
 		for j in range (0, len(myList) - 1 - i):
 			if myList[j] > myList[j + 1]:
@@ -6,4 +7,5 @@ def bubbleSort(myList):
 	return myList
 				
 thelist = ['b','d','f','a','c','e']
+
 print(bubbleSort(thelist))
